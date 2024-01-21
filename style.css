@@ -1,0 +1,343 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.container {
+  /* padding: 20px, 30px; */
+}
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Open Sans", sans-serif;
+  padding: 10px 100px;
+  box-shadow: 2px 2px 2px 2px rgb(207, 206, 206);
+}
+
+ul,
+li {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 60px;
+}
+
+ul,
+li,
+a,
+#searchButton {
+  text-decoration: none;
+  list-style-type: none;
+  color: gray;
+  font-size: 14px;
+}
+#searchButton {
+  background-color: #fafafc;
+  border-radius: 2px;
+  border: none;
+}
+
+.searchButton {
+  border: 2px solid #90a0b6;
+  padding: 2px;
+}
+#searchButton:focus {
+  outline: none;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("./indexImages/image22.png");
+  padding: 15px, 0px;
+  margin-top: 70px;
+  font-family: "Inter", sans-serif;
+}
+.heroText {
+  color: #f5f5f5;
+  padding: 100px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.heroText > h3 {
+  font-size: 56px;
+}
+.heroText > p {
+  font-size: 25px;
+}
+.heroPicture {
+  width: 500px;
+  height: 400px;
+  margin-right: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.heroButton {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.examButton {
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #f5f5f5;
+  color: #f5f5f5;
+}
+.courseButton {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.courseReg {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  padding: 20px 100px;
+  color: rgb(85, 79, 79);
+}
+.courseRegText {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-items: left;
+  text-align: left;
+  width: 100%;
+}
+.courseRegHead > h6 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  margin: 10px;
+  color: rgb(85, 79, 79);
+}
+.courseRegText > h3 {
+  font-size: 56px;
+}
+.courseRegText > h5 {
+  font-size: 25px;
+  font-weight: 100px;
+}
+.courseRegForm {
+  padding: 15px;
+  box-shadow: 2px 2px 2px 2px #90a0b6;
+  width: auto;
+  border-radius: 5px;
+}
+.courseRegForm > h4 {
+  padding-left: 10px;
+}
+.formInput {
+  justify-content: center;
+  width: 90%;
+  font-size: 13px;
+  padding: 10px;
+  margin: 25px 5px 5px 5px;
+  border: 1px solid #d9dce0;
+  background-color: #fafafc;
+  border-radius: 3px;
+}
+.formInput:focus {
+  outline: none;
+  background-color: rgb(188, 226, 213);
+  color: purple;
+}
+.formInput:hover {
+  box-shadow: 2px 2px 2px 2px #90a0b6;
+}
+select {
+  font-size: 13px;
+  padding: 10px;
+  margin: 25px 5px;
+  border: 1px solid #d9dce0;
+  background-color: #fafafc;
+  border-radius: 3px;
+  width: 95%;
+  color: rgb(85, 79, 79);
+}
+.formButton {
+  width: 30%;
+  background-color: #1b353d;
+  padding: 10px;
+  color: #ffff;
+  margin: 50px 0px 20px 0px;
+  margin-left: 67%;
+  border-radius: 5px;
+}
+.offerHead {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  margin-top: 50px;
+  font-weight: bold;
+  color: rgb(85, 79, 79);
+}
+.offer {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  padding: 40px 100px;
+  background-color: #fcfcfc;
+}
+.offerImage {
+  width: 500px;
+}
+.offerText {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: gray;
+}
+.offerText > h2 {
+  font-size: 56px;
+}
+span {
+  color: #0f756b;
+}
+.offerButton {
+  width: 30%;
+  background-color: #ffff;
+  padding: 10px;
+  border: 1px solid #90a0b6;
+  box-shadow: 1px 5px 2px rgb(207, 206, 206);
+  border-bottom: none;
+  border-right: none;
+}
+
+.trendingCourses {
+  display: flex;
+  flex-direction: row;
+  background-color: #fcfcfc;
+  justify-content: center;
+  gap: 10px;
+}
+.trendingHeader > h4 {
+  font-size: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  padding: 50px;
+  font-weight: bold;
+  color: rgb(85, 79, 79);
+  background-color: #fcfcfc;
+}
+
+.onlineExams {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  padding: 40px 100px;
+  background-color: #fcfcfc;
+  padding-top: 100px;
+}
+.onlineImage {
+  width: 500px;
+}
+.onlineText {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: gray;
+}
+.onlineText > h2 {
+  font-size: 56px;
+}
+span {
+  color: #0f756b;
+}
+.onlineButton {
+  width: 20%;
+  background-color: #ffff;
+  padding: 10px;
+  border: 1px solid #90a0b6;
+  box-shadow: 1px 5px 2px rgb(207, 206, 206);
+  border-bottom: none;
+  border-right: none;
+  border-radius: 5px;
+  color: gray;
+}
+.testCourses {
+  display: flex;
+  flex-direction: row;
+  background-color: #fcfcfc;
+  justify-content: center;
+  gap: 10px;
+}
+.testHeader > h4 {
+  font-size: 56px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  padding: 50px;
+  font-weight: bold;
+  color: rgb(85, 79, 79);
+  background-color: #fcfcfc;
+}
+
+.offerHead {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  margin-top: 50px;
+  font-weight: bold;
+  color: rgb(85, 79, 79);
+}
+.publication {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  padding: 40px 100px;
+  background-color: #fcfcfc;
+  padding-top: 120px;
+}
+.publicationImage {
+  width: 500px;
+  border-radius: 10px;
+}
+.publicationText {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: gray;
+}
+.publicationText > h2 {
+  font-size: 56px;
+}
+span {
+  color: #0f756b;
+}
+.publicationButton {
+  width: 30%;
+  background-color: #ffff;
+  padding: 10px;
+  border: 1px solid #90a0b6;
+  box-shadow: 1px 5px 2px rgb(207, 206, 206);
+  border-bottom: none;
+  border-right: none;
+}
+.instructorHead {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  margin-top: 50px;
+  font-weight: bold;
+  color: rgb(85, 79, 79);
+}
+.instructurePicture {
+display: flex;  
+gap: 100px;
+justify-content: center;
+}
+.instructorPic {
+  border-radius: 100%;
+
+
+}
+
