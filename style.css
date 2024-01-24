@@ -3,7 +3,7 @@
   margin: 0px;
 }
 .container {
-  /* padding: 20px, 30px; */
+  padding: 20px, 30px;
 }
 .navBar {
   display: flex;
@@ -215,6 +215,7 @@ span {
   background-color: #fcfcfc;
   justify-content: center;
   gap: 10px;
+  justify-content: center;
 }
 .trendingHeader > h4 {
   font-size: 20px;
@@ -331,13 +332,286 @@ span {
   color: rgb(85, 79, 79);
 }
 .instructurePicture {
-display: flex;  
-gap: 100px;
-justify-content: center;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
 }
 .instructorPic {
   border-radius: 100%;
-
-
 }
 
+@media screen and (max-width: 767px) {
+  * {
+    padding: 0px;
+    margin: 0px;
+  }
+  .navBar {
+    display: none;
+  }
+  .container {
+    padding: 0px;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    background-image: none;
+    padding: 0px;
+    margin-top: 0px;
+    font-family: "Inter", sans-serif;
+  }
+  .heroText {
+    color: #f5f5f5;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .heroText > h3 {
+    font-size: 24px;
+  }
+  .heroText > p {
+    font-size: 13px;
+  }
+  .heroPicture {
+    width: 100%;
+    margin: 5px;
+    object-fit: cover;
+    border-radius: 0px;
+  }
+  .heroButton {
+    display: flex;
+    flex-direction: row;
+  }
+  .courseReg {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    padding: 10px 25px;
+    color: rgb(85, 79, 79);
+  }
+  .courseRegText {
+    display: none;
+  }
+  .courseRegHead > h6 {
+    text-align: left;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    margin: 10px;
+    color: rgb(85, 79, 79);
+  }
+  .courseRegText > h3 {
+    display: none;
+  }
+  .courseRegText > h5 {
+    display: none;
+  }
+  .courseRegForm {
+    padding: 0px;
+    box-shadow: none;
+    width: 100%;
+    border-radius: 5px;
+  }
+  .courseRegForm > h4 {
+    display: none;
+  }
+  .formInput {
+    justify-content: center;
+    width: 90%;
+    font-size: 16px;
+    padding: 10px;
+    margin: 25px 5px 5px 5px;
+    border: 1px solid #d9dce0;
+    background-color: #fafafc;
+    border-radius: 3px;
+  }
+  .formInput:focus {
+    outline: none;
+    background-color: rgb(188, 226, 213);
+    color: purple;
+  }
+  .formInput:hover {
+    box-shadow: 2px 2px 2px 2px #90a0b6;
+  }
+  select {
+    font-size: 16px;
+    padding: 10px;
+    margin: 25px 5px;
+    border: 1px solid #d9dce0;
+    background-color: #fafafc;
+    border-radius: 3px;
+    width: 96%;
+    color: rgb(85, 79, 79);
+  }
+  .formButton {
+    width: 98%;
+    background-color: #1b353d;
+    padding: 10px;
+    color: #ffff;
+    margin: 20px 0px 10px 0px;
+    margin-left: 0%;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .offerHead {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    margin-top: 25px;
+    font-weight: bold;
+    color: rgb(85, 79, 79);
+  }
+  .offer {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 50px;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    padding: 10px 25px;
+    background-color: #fcfcfc;
+  }
+  .offerImage {
+    width: 100%;
+  }
+  .offerText {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: gray;
+  }
+  .offerText > h2 {
+    font-size: 24px;
+  }
+  span {
+    color: #0f756b;
+  }
+  .offerButton {
+    width: 30%;
+    background-color: #ffff;
+    padding: 10px;
+    border: 1px solid #90a0b6;
+    box-shadow: 1px 5px 2px rgb(207, 206, 206);
+    border-bottom: none;
+    border-right: none;
+  }
+  .trendingCourses {
+    display: flex;
+    flex-direction: row;
+    width: 130px;
+    background-color: #fcfcfc;
+    justify-content: center;
+    gap: 5px;
+    padding: 0px 15px;
+    justify-content: left;
+  }
+
+  .trendingHeader > h4 {
+    font-size: 20px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    padding: 25px;
+    font-weight: bold;
+    color: rgb(85, 79, 79);
+    background-color: #fcfcfc;
+  }
+
+  .onlineExams {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    padding: 20px 25px;
+    background-color: #fcfcfc;
+    padding-top: 5px;
+  }
+  .onlineImage {
+    width: 100%;
+    justify-content: center;
+  }
+  .onlineText {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: gray;
+  }
+  .onlineText > h2 {
+    font-size: 24px;
+  }
+  span {
+    color: #0f756b;
+  }
+  .onlineButton {
+    width: 20%;
+    background-color: #ffff;
+    padding: 10px;
+    border: 1px solid #90a0b6;
+    box-shadow: 1px 5px 2px rgb(207, 206, 206);
+    border-bottom: none;
+    border-right: none;
+    border-radius: 5px;
+    color: gray;
+  }
+  .testCourses {
+    display: flex;
+    flex-direction: row;
+    background-color: #fcfcfc;
+    justify-content: center;
+    gap: 10px;
+  }
+  .testHeader > h4 {
+    font-size: 24px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    padding: 25px;
+    font-weight: bold;
+    color: rgb(85, 79, 79);
+    background-color: #fcfcfc;
+  }
+  .offerHead {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+    margin-top: 50px;
+    font-weight: bold;
+    color: rgb(85, 79, 79);
+  }
+  .publication {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 50px;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    padding: 20px 24px;
+    background-color: #fcfcfc;
+    padding-top: 15px;
+  }
+  .publicationImage {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .publicationText {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: gray;
+  }
+  .publicationText > h2 {
+    font-size: 24px;
+  }
+  span {
+    color: #0f756b;
+  }
+  .publicationButton {
+    width: 30%;
+    background-color: #ffff;
+    padding: 10px;
+    border: 1px solid #90a0b6;
+    box-shadow: 1px 5px 2px rgb(207, 206, 206);
+    border-bottom: none;
+    border-right: none;
+  }
+}
